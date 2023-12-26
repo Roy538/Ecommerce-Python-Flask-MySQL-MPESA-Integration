@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShopIt | Single</title>
+    <link rel="stylesheet"  type="text/css" href="../static/css/bootstrap.css"/>
+
+</head>
+<body>
+<div class="jumbotron">
+    <h2>ShopIt Limited</h2>
+    <a href="/" class="btn btn-warning">Continue Shopping</a>
+</div>
+
+<div class="container">
+    <section class="row">
+
+        <div class="col-md-6">
+            <img src="https://modcom.co.ke/pics/{{product[6]}}"
+                 alt="" class="img-fluid" width="60%">
+        </div>
+        <div class="col-md-6">
+
+
+
+            <h2>{{product[1]}}</h2>
+            <p class="text-muted">{{product[2]}}</p>
+            <i>Category: {{product[3]}}</i>
+            <h5 class="text-warning">Date Updated{{product[7]}}</h5>
+            <b><strike>{{product[5]}}</strike></b>
+            <br>
+            <u>{{product[4]}}</u>
+            <br>
+
+
+            <form action="/mpesa" class="form" method="post">
+                <br><br>
+                <input type="text"name = "phone" placeholder="Phone number"><br><br>
+                <input type="number" name="qty" placeholder="Quantity"><br><br>
+                <input type="submit" class="btn btn-warning" value="Proceed with Payment"><br><br>
+            </form>
+        </div>
+    </section>
+</div>
+</body>
+</html>
