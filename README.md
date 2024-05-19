@@ -21,7 +21,7 @@ To get a local copy up and running, follow these simple steps:
 
 * bash
 Copy code
-git clone https://github.com/Roy538/ShopIt.git
+git clone https://github.com/Roy538/Ecommerce-Python-Flask-MySQL-MPESA-Integration.git
 Navigate to the project directory:
 
 * bash
