@@ -46,3 +46,5 @@ Copy code
 python manage.py runserver
 Access the application:
 Open your web browser and navigate to http://localhost:8000 to start using ShopIt.
+# Preview
+![SHOP's Image](<Screenshot from 2021-07-02 12-51-32-1.png>)
